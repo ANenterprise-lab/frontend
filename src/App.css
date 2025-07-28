@@ -1,0 +1,60 @@
+main {
+  min-height: 80vh;
+}
+
+h1, h2, h3 {
+  margin: 1rem 0;
+}
+
+.cart-section {
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+}
+
+.order-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+/* --- Parallax Home Page Styles --- */
+.hero-banner {
+  height: 75vh;
+}
+
+.hero-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); 
+}
