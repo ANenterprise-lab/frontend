@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import axios from 'axios';
 import { Form, Button, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
@@ -26,7 +25,7 @@ function ProductAddPage() {
                 },
             };
 
-            await axios.post(
+            await api.post(
                 'http://localhost:5000/api/products',
                 { name, sku, barcode, category, variety, price, stockLevel, imageUrl, description },
                 config

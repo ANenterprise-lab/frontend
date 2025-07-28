@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Row, Col, Card, Button } from 'react-bootstrap';
 import api from '../axiosConfig'; // The path might be './axiosConfig' if you're in App.jsx
 function StorePage() {

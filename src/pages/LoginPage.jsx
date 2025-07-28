@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import axios from 'axios';
 import api from '../axiosConfig'; // The path might be './axiosConfig' if you're in App.jsx
 function LoginPage() {
     const [email, setEmail] = useState('');
